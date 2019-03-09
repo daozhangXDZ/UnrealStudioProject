@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "DZAnimStudio",
+	"Description": "This is Anim Studio",
+	"Category": "DZExtend",
+	"CreatedBy": "BaiPao_XD",
+	"CreatedByURL": "https://www.cnblogs.com/BaiPao-XD/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+			{
+				"Name": "DZAnimStudio",
+				"Type": "Runtime",
+				"LoadingPhase": "PreDefault",
+				"WhitelistPlatforms": [
+					"Android",
+					"Mac",
+					"Win32",
+					"Win64",
+					"PS4",
+					"XboxOne"
+				]
+			},
+			{
+				"Name": "DZAnimStudioEditor",
+				"Type": "Editor",
+				"LoadingPhase": "Default",
+				"WhitelistPlatforms": [
+					"Win32",
+					"Win64",
+					"Mac"
+				]
+			}
+	]
+}
